@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chipTextColor"
+    tools:context=".ui.weatherReport.WeatherReportActivity">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_50_dp">
+
+
+        <ImageView
+            android:id="@+id/imageViewMainCloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_splash_screen_main_logo" />
+
+        <AutoCompleteTextView
+            android:id="@+id/actv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewMainCloud"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/dimen_10_dp"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:layout_marginEnd="@dimen/dimen_10_dp"
+            android:completionThreshold="1"
+            android:hint="@string/enter_cityName"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/colorHintText"
+            tools:ignore="LabelFor" />
+
+
+        <Button
+            android:id="@+id/btnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_45_dp"
+            android:layout_below="@id/actv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:elevation="@dimen/dimen_2_dp"
+            android:gravity="center"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            android:text="@string/btnReport"
+            android:textAllCaps="true"
+            android:textAppearance="@style/AppTheme"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="24dp"
+            tools:targetApi="lollipop" />
+
+        <TextView
+            android:id="@+id/favCityTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnClick"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_30_dp"
+            android:text="@string/favCities"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/favCityTxt"
+            android:layout_margin="@dimen/dimen_10_dp"
+            android:layout_marginTop="16dp"
+            app:reverseLayout="true" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

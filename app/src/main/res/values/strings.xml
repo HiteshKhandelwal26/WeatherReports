@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Weather Report</string>
+
+    <string name="change_city">Favorite Cities</string>
+
+    <!-- Put your own APP ID here -->
+    <string name="open_weather_maps_app_id">11111</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, No records found!</string>
+    <string name="receiver_value">add_receiver</string>
+    <string name="enable_permissions">Permissions are Disabled. Please enable the permissions first</string>
+    <string name="location_permission_required">Location Services Permission required for this app</string>
+    <string name="enable_permission_in_setting">Go to settings and enable permissions</string>
+    <string name="permission_settings_snackbar">Settings</string>
+    <string name="permission_enable_snackbar">Enable</string>
+    <string name="current_location">Current Location:  </string>
+    <string name="welcomeMsg">Welcome to Weather Report</string>
+    <string name="weatherReport">Weather Report</string>
+    <string name="btnReport">Get Weather Report</string>
+    <string name="enter_cityName">Enter Destination Name</string>
+    <string name="markFav">Mark As Favorite</string>
+    <string name="markedFav">Marked As Favorite City</string>
+    <string name="noInternet">Please check your internet connection!</string>
+    <string name="icons">Icons</string>
+    <string name="access_permit">Location permission required to access current location</string>
+    <string name="humidTxt">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="noDataStored">No data available in cache!</string>
+    <string name="emptyErr">Destination cannot be empty</string>
+    <string name="alert">Alert!</string>
+    <string name="explore">Explore</string>
+    <string name="turnGPS">TURN ON GPS</string>
+    <string name="favCities">Favorite Destinations</string>
+    <string name="turnGPSTxt">To continue, turn on device location!</string>
+    <string name="unmarkText">Are you sure, you want to remove your favorite city?</string>
+</resources>

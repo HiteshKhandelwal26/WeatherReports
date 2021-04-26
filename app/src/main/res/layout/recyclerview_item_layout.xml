@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_outline_button">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_5_dp">
+
+        <TextView
+            android:id="@+id/txtNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dimen_10_dp"
+            android:layout_marginLeft="@dimen/dimen_10_dp"
+            android:layout_marginTop="@dimen/dimen_5_dp"
+            android:paddingEnd="@dimen/dimen_52_dp"
+            android:paddingRight="@dimen/dimen_52_dp"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap,RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_5_dp">
+
+            <ImageView
+                android:id="@+id/delItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:paddingLeft="@dimen/dimen_10_dp"
+                android:paddingRight="@dimen/dimen_10_dp"
+                android:src="@drawable/close" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

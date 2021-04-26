@@ -1,0 +1,76 @@
+<resources>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+
+
+    <dimen name="dimen_1_dp">1dp</dimen>
+    <dimen name="dimen_2_dp">2dp</dimen>
+    <dimen name="dimen_3_dp">3dp</dimen>
+    <dimen name="dimen_4_dp">4dp</dimen>
+    <dimen name="dimen_5_dp">5dp</dimen>
+    <dimen name="dimen_6_dp">6dp</dimen>
+    <dimen name="dimen_7_dp">7dp</dimen>
+    <dimen name="dimen_8_dp">8dp</dimen>
+    <dimen name="dimen_10_dp">10dp</dimen>
+    <dimen name="dimen_12_dp">12dp</dimen>
+    <dimen name="dimen_14_dp">14dp</dimen>
+    <dimen name="dimen_15_dp">15dp</dimen>
+    <dimen name="dimen_16_dp">16dp</dimen>
+    <dimen name="dimen_18_dp">18dp</dimen>
+    <dimen name="dimen_20_dp">20dp</dimen>
+    <dimen name="dimen_24_dp">24dp</dimen>
+    <dimen name="dimen_25_dp">25dp</dimen>
+    <dimen name="dimen_28_dp">28dp</dimen>
+    <dimen name="dimen_30_dp">30dp</dimen>
+    <dimen name="dimen_32_dp">32dp</dimen>
+    <dimen name="dimen_36_dp">36dp</dimen>
+    <dimen name="dimen_40_dp">40dp</dimen>
+    <dimen name="dimen_45_dp">45dp</dimen>
+    <dimen name="dimen_48_dp">48dp</dimen>
+    <dimen name="dimen_50_dp">50dp</dimen>
+    <dimen name="dimen_52_dp">52dp</dimen>
+    <dimen name="dimen_60_dp">60dp</dimen>
+    <dimen name="dimen_64_dp">64dp</dimen>
+    <dimen name="dimen_70_dp">70dp</dimen>
+    <dimen name="dimen_80_dp">80dp</dimen>
+    <dimen name="dimen_84_dp">84dp</dimen>
+    <dimen name="dimen_90_dp">90dp</dimen>
+    <dimen name="dimen_100_dp">100dp</dimen>
+    <dimen name="dimen_110_dp">110dp</dimen>
+    <dimen name="dimen_120_dp">120dp</dimen>
+    <dimen name="dimen_130_dp">130dp</dimen>
+    <dimen name="dimen_140_dp">140dp</dimen>
+    <dimen name="dimen_150_dp">150dp</dimen>
+    <dimen name="dimen_160_dp">160dp</dimen>
+    <dimen name="dimen_170_dp">170dp</dimen>
+    <dimen name="dimen_180_dp">180dp</dimen>
+    <dimen name="dimen_190_dp">190dp</dimen>
+    <dimen name="dimen_200_dp">200dp</dimen>
+    <dimen name="dimen_210_dp">210dp</dimen>
+    <dimen name="dimen_220_dp">220dp</dimen>
+    <dimen name="dimen_230_dp">230dp</dimen>
+    <dimen name="dimen_240_dp">240dp</dimen>
+    <dimen name="dimen_250_dp">250dp</dimen>
+    <dimen name="dimen_260_dp">260dp</dimen>
+    <dimen name="dimen_270_dp">270dp</dimen>
+    <dimen name="dimen_280_dp">280dp</dimen>
+    <dimen name="dimen_290_dp">290dp</dimen>
+    <dimen name="dimen_300_dp">300dp</dimen>
+    <dimen name="dimen_310_dp">310dp</dimen>
+    <dimen name="dimen_320_dp">320dp</dimen>
+    <dimen name="dimen_330_dp">330dp</dimen>
+    <dimen name="dimen_340_dp">340dp</dimen>
+    <dimen name="dimen_350_dp">350dp</dimen>
+    <dimen name="dimen_360_dp">360dp</dimen>
+    <dimen name="dimen_370_dp">370dp</dimen>
+    <dimen name="dimen_380_dp">380dp</dimen>
+    <dimen name="dimen_390_dp">390dp</dimen>
+    <dimen name="dimen_400_dp">400dp</dimen>
+
+    <!--////negative values////-->
+    <dimen name="dimen_n4_dp">-4dp</dimen>
+    <dimen name="dimen_n8_dp">-8dp</dimen>
+
+    <dimen name="item_offset">@dimen/dimen_10_dp</dimen>
+
+</resources>
